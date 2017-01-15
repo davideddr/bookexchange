@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Book Exchange</title>
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	<%= csrf_meta_tags %>
+</head>
+<body>
+	<%= render "layouts/navbar" %>
+	<!-- menu laterale -->
+	<% if user_signed_in? %>
+		<%= render "layouts/menu" %>
+	<% else %>
+		<% if notice %>
+			<div class="alert alert-success" role="alert"><%= notice %></div>
+		<% end %>
+		<% if alert %>
+			<div class="alert alert-danger" role="alert" ><%= alert %></div>
+		<% end %>
+		<%= yield %>
+	<% end %>
+	
+</body>
+</html>
+

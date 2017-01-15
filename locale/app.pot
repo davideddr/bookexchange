@@ -1,0 +1,448 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the app package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: app 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-17 17:36+0100\n"
+"PO-Revision-Date: 2015-11-17 17:36+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid "#{@minimum_password_length} characters minimum"
+msgstr ""
+
+msgid "Action & Adventure"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Add more information"
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "All books"
+msgstr ""
+
+msgid "All donations"
+msgstr ""
+
+msgid "Applicant information : "
+msgstr ""
+
+msgid "Are you sure?"
+msgstr ""
+
+msgid "Arts & Entertainment"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "Autor : "
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "Bad condition"
+msgstr ""
+
+msgid "Biographies and diaries"
+msgstr ""
+
+msgid "Book already in the wishlist."
+msgstr ""
+
+msgid "Book information :"
+msgstr ""
+
+msgid "Book was successfully created."
+msgstr ""
+
+msgid "Book was successfully destroyed."
+msgstr ""
+
+msgid "Book was successfully insert in the wishlist."
+msgstr ""
+
+msgid "Book was successfully updated."
+msgstr ""
+
+msgid "Book wasn't insert in the wishlist."
+msgstr ""
+
+msgid "Bookbinding"
+msgstr ""
+
+msgid "Bookbinding : "
+msgstr ""
+
+msgid "Books available"
+msgstr ""
+
+msgid "Books for children"
+msgstr ""
+
+msgid "Business & Finance"
+msgstr ""
+
+msgid "Cancel my account"
+msgstr ""
+
+msgid "Category"
+msgstr ""
+
+msgid "Categoty : "
+msgstr ""
+
+msgid "Change my password"
+msgstr ""
+
+msgid "Change your password"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "City : "
+msgstr ""
+
+msgid "Click the link below to unlock your account:"
+msgstr ""
+
+msgid "Comics & Graphic Novels"
+msgstr ""
+
+msgid "Computers & Technology"
+msgstr ""
+
+msgid "Confirm my account"
+msgstr ""
+
+msgid "Confirm your new password"
+msgstr ""
+
+msgid "Cover"
+msgstr ""
+
+msgid "Current password"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delivered"
+msgstr ""
+
+msgid "Delivery"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Description : "
+msgstr ""
+
+msgid "Didn't receive confirmation instructions?"
+msgstr ""
+
+msgid "Didn't receive unlock instructions?"
+msgstr ""
+
+msgid "Discrete model"
+msgstr ""
+
+msgid "Donation"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Edit registration"
+msgstr ""
+
+msgid "Editing Book"
+msgstr ""
+
+msgid "Email : "
+msgstr ""
+
+msgid "Excellent"
+msgstr ""
+
+msgid "Forgot your password?"
+msgstr ""
+
+msgid "Gialli and Thriller "
+msgstr ""
+
+msgid "Giver information : "
+msgstr ""
+
+msgid "Good condition"
+msgstr ""
+
+msgid "Hello"
+msgstr ""
+
+msgid "Historical Fiction"
+msgstr ""
+
+msgid "History"
+msgstr ""
+
+msgid "Humor"
+msgstr ""
+
+msgid "If you didn't request this, please ignore this email."
+msgstr ""
+
+msgid "Insert new book in my library"
+msgstr ""
+
+msgid "Insert the title of the book"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Language : "
+msgstr ""
+
+msgid "Language, linguistics and writing"
+msgstr ""
+
+msgid "Law"
+msgstr ""
+
+msgid "Less information"
+msgstr ""
+
+msgid "Like new"
+msgstr ""
+
+msgid "Literature & Fiction"
+msgstr ""
+
+msgid "Loan"
+msgstr ""
+
+msgid "Log in"
+msgstr ""
+
+msgid "Login"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "My books"
+msgstr ""
+
+msgid "My donations"
+msgstr ""
+
+msgid "My requests"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Name : "
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "New password"
+msgstr ""
+
+msgid "Pages"
+msgstr ""
+
+msgid "Pages : "
+msgstr ""
+
+msgid "Password confirmation"
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "Phone : "
+msgstr ""
+
+msgid "Politics"
+msgstr ""
+
+msgid "Publisher"
+msgstr ""
+
+msgid "Publisher : "
+msgstr ""
+
+msgid "Register"
+msgstr ""
+
+msgid "Religion"
+msgstr ""
+
+msgid "Remember me"
+msgstr ""
+
+msgid "Remove from the wishlist"
+msgstr ""
+
+msgid "Remove from wishlist"
+msgstr ""
+
+msgid "Remove request"
+msgstr ""
+
+msgid "Request"
+msgstr ""
+
+msgid "Request cancelled!"
+msgstr ""
+
+msgid "Requested"
+msgstr ""
+
+msgid "Requested book delivered!"
+msgstr ""
+
+msgid "Required book successfully!"
+msgstr ""
+
+msgid "Resend confirmation instructions"
+msgstr ""
+
+msgid "Resend unlock instructions"
+msgstr ""
+
+msgid "Romance"
+msgstr ""
+
+msgid "Sale"
+msgstr ""
+
+msgid "Save book"
+msgstr ""
+
+msgid "School books"
+msgstr ""
+
+msgid "Science & Technology"
+msgstr ""
+
+msgid "Science Fiction, Fantasy and Horror"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Search by title or ISBN the information of your book"
+msgstr ""
+
+msgid "Select the category"
+msgstr ""
+
+msgid "Select the status of the book"
+msgstr ""
+
+msgid "Select the type of sale"
+msgstr ""
+
+msgid "Select the year of publication of the book"
+msgstr ""
+
+msgid "Send me reset password instructions"
+msgstr ""
+
+msgid "Show"
+msgstr ""
+
+msgid "Sign in with #{provider.to_s.titleize}"
+msgstr ""
+
+msgid "Sign up"
+msgstr ""
+
+msgid "Someone has requested a link to change your password. You can do this through the link below."
+msgstr ""
+
+msgid "Sport"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Status : "
+msgstr ""
+
+msgid "Surname"
+msgstr ""
+
+msgid "The operation isn't successful!"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Type of sale"
+msgstr ""
+
+msgid "Type of sale :"
+msgstr ""
+
+msgid "Type of sale : "
+msgstr ""
+
+msgid "Unhappy?"
+msgstr ""
+
+msgid "Unlock my account"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Welcome"
+msgstr ""
+
+msgid "Wishlist"
+msgstr ""
+
+msgid "Year"
+msgstr ""
+
+msgid "Year : "
+msgstr ""
+
+msgid "You can confirm your account email through the link below:"
+msgstr ""
+
+msgid "Your account has been locked due to an excessive number of unsuccessful sign in attempts."
+msgstr ""
+
+msgid "Your password won't change until you access the link above and create a new one."
+msgstr ""
+
+msgid "prohibited this book from being saved:"
+msgstr ""

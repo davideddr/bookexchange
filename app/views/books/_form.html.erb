@@ -1,0 +1,10 @@
+<%= simple_form_for(:search, url: books_gbsearch_path, method: :post, html: { class: 'form-horizontal', id: 'search_books_form' }, remote: true)do |form| %>
+	<%= form.input :query , label: _('Search by title or ISBN the information of your book') , class: 'select2-search'%>
+	<%= form.submit _('Search') , class: "btn btn-default" %>
+<%end%>
+
+<div id="content">
+	<%= render "books/book_form" %>
+</div>
+
+

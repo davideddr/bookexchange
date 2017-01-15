@@ -1,0 +1,48 @@
+<%= simple_form_for @book, html: { class: 'form-horizontal' } do |f|%>
+<% if @book.errors.any? %>
+<div id="error_explanation">
+	<h2>
+		<%= pluralize(@book.errors.count, "error") %> <%=_('prohibited this book from being saved:')%>
+	</h2>
+	<ul>
+		<% @book.errors.full_messages.each do |msg| %>
+		<li><%= msg %></li>
+		<% end %>
+	</ul>
+</div>
+<% end %>
+
+<div class="simple">
+	<%= f.input :title, label: _('Title') %>
+	<%= f.input :isbn, label: 'ISBN' %>
+	<%= f.input :language, label: _('Language') %>
+	<%= f.input :year, collection: Date.today.year - 100..Date.today.year, prompt: _('Select the year of publication of the book'), label: _('Year')%>
+	<%= f.input :typeOfSale, collection: Book::TYPE, include_blank: _('Select the type of sale'), label: _('Type of sale') %>
+	<%= f.input :status, collection: Book::STATUS, include_blank: _('Select the status of the book'), label: _('Status') %>
+	<button id="more" class="btn btn-default" type="button"><%=_('Add more information')%></button>
+</div>
+<div id="inf">
+	<%= f.input :author , label: _('Author')%>
+	<%= f.input :publisher , label: _('Publisher')%>
+	<%= f.input :pages, as: :integer, input_html: { min: '0', step: 'any' }, label: _('Pages') %>
+	<%= f.input :bookbinding, label: _('Bookbinding') %>
+	<%= f.input :category, collection: Book::CAT, include_blank: _('Select the category'), label: _('Category') %>
+	<%= f.input :cover, as: :file, label: _('Cover') %>
+	<%= f.input :description, as: :text, label: _('Description')%>
+	<button id="less" class="btn btn-danger" type="button"><%=_('Less information')%></button>
+</div>
+
+<%= f.submit _("Save book") , :class => 'btn btn-success'%>
+
+<% end %>
+<script type="text/javascript">
+	$('#more').on("click",function(){
+		$('#more').hide();
+		$('#inf').show();
+	});
+
+	$('#less').click("click",function(){
+		$('#inf').hide();
+		$('#more').show();
+	});
+</script>

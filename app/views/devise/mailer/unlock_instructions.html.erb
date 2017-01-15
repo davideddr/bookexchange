@@ -1,0 +1,19 @@
+<div class="container">
+	<div class="col-md-3"></div>
+	<div class="col-md-6">
+		<div class="col-md-1"></div>
+		<div class="col-md-10">
+			<p><%=_('Hello')%> <%= @resource.email %>!</p>
+
+			<p><%=_('Your account has been locked due to an excessive number of unsuccessful sign in attempts.')%></p>
+
+			<p><%=_('Click the link below to unlock your account:')%></p>
+
+			<p><%= link_to _('Unlock my account'), unlock_url(@resource, unlock_token: @token) %></p>
+
+		</div>
+		<div class="col-md-1"></div>
+	</div>
+	<div class="col-md-3"></div>
+</div>
+

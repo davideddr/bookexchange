@@ -1,0 +1,10 @@
+<%= form_tag(books_search_path, :method => "get", id: "search-form", class: 'form-horizontal') do %>
+<div class="col-md-11">
+	<!-- text field tag=action,args,identifier,placeholdertext... -->
+	<%= text_field_tag :search, params[:search], class: "search-query form-control", placeholder: _('Insert the title of the book'), type: "search", data: {autocomplete: autocomplete_book_title_books_path} %>
+</div>
+<div class="col-md-1 se">
+	<%= submit_tag _('Search') , class: 'btn btn-default'%>
+</div>
+
+<%end%>

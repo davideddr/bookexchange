@@ -1,0 +1,15 @@
+<% u %>
+<ul class="list-group">
+	<li class="list-group-item">
+		<p class="list-group-item-text"><span><b><%=_('Name : ')%></b><%= @u.name %> <%= @u.surname %></span></p>
+	</li>
+	<li class="list-group-item">
+		<p class="list-group-item-text"><span><b><%=_('City : ')%></b><%= @u.city %>, <%= @u.address %></span></p>
+	</li>
+	<li class="list-group-item">
+		<p class="list-group-item-text"><span><b><%=_('Email : ')%></b><a href="mailto:<%= @u.email %>"><%= @u.email %></a></span></p>
+	</li>
+	<li class="list-group-item">
+		<p class="list-group-item-text"><span><b><%=_('Phone : ')%></b><a href="tel:<%= @u.phone%>"><%= @u.phone%></a></span></p>
+	</li>
+</ul>

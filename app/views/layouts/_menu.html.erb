@@ -1,0 +1,38 @@
+<div id="wrapper">
+	<!-- Sidebar -->
+	<div id="sidebar-wrapper">
+		<ul class="sidebar-nav">
+			<li class="sidebar-brand">
+				<%= link_to "Menu" %>
+			</li>
+			<li>
+				<%= link_to _('All books'), root_path %>
+			</li>
+			<li>
+				<%= link_to _('My requests'), books_requests_path %>
+			</li>
+			<li>
+				<%= link_to _('My books'), books_received_path %>
+			</li>
+			<li>
+				<%= link_to _('My donations'), books_path %>
+			</li>
+			<li>
+				<a href="#" id="showmenu">Account</a>
+				<ul class="menu" style="display: none;">
+					<%= render 'devise/menu/registration_items' %>
+					<%= render 'devise/menu/login_items' %>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div id="page-content-wrapper">
+		<% if notice %>
+		<div class="alert alert-success" role="alert"><%= notice %></div>
+		<% end %>
+		<% if alert %>
+		<div class="alert alert-danger" role="alert" ><%= alert %></div>
+		<% end %>
+		<%= yield %>
+	</div>
+</div>

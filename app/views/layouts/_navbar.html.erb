@@ -1,0 +1,38 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <%= link_to "BookExchange", root_path , :class => "navbar-brand"%>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <% if user_signed_in?%>
+      <ul class="nav navbar-nav navbar-left">
+        <li><a id="menu-toggle"><%= fa_icon "bars"%></a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <%= link_to new_book_path do %>
+            <%= fa_icon "plus"%>
+          <% end %>
+        </li>
+        <li>
+          <%= link_to books_search_path do %>
+            <%= fa_icon "search"%>
+          <% end %>
+        </li>
+      </ul>
+      <%end%>
+    </div>
+  </div>
+</nav>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+    $('#showmenu').on('click',function(){
+      $('.menu').slideToggle("fast");
+    });
+  });
+</script>

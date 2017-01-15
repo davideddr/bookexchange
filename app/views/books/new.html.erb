@@ -1,0 +1,16 @@
+<div class="container">
+	<div class="col-md-12">
+		<h2><%=_('Insert new book in my library')%></h2>
+		<%= render 'form'%> 
+	</div>
+</div> 
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#search_books_form").on("ajax:success", function(e, data, status, xhr){
+		if(status != 'success')
+			$("#content").html("<div class=\"row\"><h3>Non ho trovato niente</h3></div>");
+		else
+			$("#content").html(data);
+	});
+});
+</script>

@@ -1,0 +1,452 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the app package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: app 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2015-11-13 15:09+0100\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.6\n"
+"POT-Creation-Date: 2015-11-17 17:36+0100\n"
+
+msgid "#{@minimum_password_length} characters minimum"
+msgstr "#{@minimum_password_length} caratteri almeno"
+
+msgid "Action & Adventure"
+msgstr "Azione e avventura"
+
+msgid "Active"
+msgstr "Attivi"
+
+msgid "Add more information"
+msgstr "Aggiungi più informazioni"
+
+msgid "Address"
+msgstr "Indirizzo"
+
+msgid "All"
+msgstr "Tutti"
+
+msgid "All books"
+msgstr "Tutti i libri"
+
+msgid "All donations"
+msgstr "Tutte le donazioni"
+
+#, fuzzy
+msgid "Applicant information : "
+msgstr "Informazioni sul donatore : "
+
+msgid "Are you sure?"
+msgstr "Sei sicuro?"
+
+msgid "Arts & Entertainment"
+msgstr "Arte, cinema e fotografia"
+
+msgid "Author"
+msgstr "Autore"
+
+msgid "Autor : "
+msgstr "Autore : "
+
+msgid "Back"
+msgstr "Indietro"
+
+msgid "Bad condition"
+msgstr "Cattive condizioni"
+
+msgid "Biographies and diaries"
+msgstr "Biografie e diari"
+
+msgid "Book already in the wishlist."
+msgstr "Il libro è già presente nella lista dei desideri."
+
+msgid "Book information :"
+msgstr "Informazioni sul libro"
+
+msgid "Book was successfully created."
+msgstr "Il libro è stato inserito con successo."
+
+msgid "Book was successfully destroyed."
+msgstr "Il libro è stato rimosso."
+
+msgid "Book was successfully insert in the wishlist."
+msgstr "Inserito nella lista dei desideri."
+
+msgid "Book was successfully updated."
+msgstr "Le informazioni del libro sono state aggiornate."
+
+msgid "Book wasn't insert in the wishlist."
+msgstr "Il libro non è stato inserito nella lista dei desideri."
+
+msgid "Bookbinding"
+msgstr "Rilegatura"
+
+msgid "Bookbinding : "
+msgstr "Rilegatura : "
+
+msgid "Books available"
+msgstr "Libri disponibili"
+
+msgid "Books for children"
+msgstr "Libri per bambini e ragazzi"
+
+msgid "Business & Finance"
+msgstr "Economia, affari e finanza"
+
+msgid "Cancel my account"
+msgstr "Cancella il mio account"
+
+msgid "Category"
+msgstr "Categoria"
+
+msgid "Categoty : "
+msgstr "Categoria : "
+
+msgid "Change my password"
+msgstr "Cambia la password"
+
+msgid "Change your password"
+msgstr "Cambia la tua password"
+
+msgid "City"
+msgstr "Città"
+
+msgid "City : "
+msgstr "Città : "
+
+msgid "Click the link below to unlock your account:"
+msgstr "Clicca nel link sottostante per sbloccare il tuo account:"
+
+msgid "Comics & Graphic Novels"
+msgstr "Fumetti e manga"
+
+msgid "Computers & Technology"
+msgstr "Informatica, Web e Digital Media"
+
+msgid "Confirm my account"
+msgstr "Conferma account"
+
+msgid "Confirm your new password"
+msgstr "Conferma la tua nuova password"
+
+msgid "Cover"
+msgstr "Copertina"
+
+msgid "Current password"
+msgstr "Password corrente"
+
+msgid "Delete"
+msgstr "Cancella"
+
+msgid "Delivered"
+msgstr "Consegnati"
+
+msgid "Delivery"
+msgstr "Consegnato"
+
+msgid "Description"
+msgstr "Descrizione"
+
+msgid "Description : "
+msgstr "Descrizione : "
+
+msgid "Didn't receive confirmation instructions?"
+msgstr "Non hai ricevuto le istruzioni per la conferma?"
+
+msgid "Didn't receive unlock instructions?"
+msgstr "Non hai ricevuto le istruzioni per lo sblocco?"
+
+msgid "Discrete model"
+msgstr "Discreto modello"
+
+msgid "Donation"
+msgstr "Donazione"
+
+msgid "Edit"
+msgstr "Modifica"
+
+msgid "Edit registration"
+msgstr "Modifica"
+
+msgid "Editing Book"
+msgstr "Modifica il libro"
+
+msgid "Email : "
+msgstr "Email : "
+
+msgid "Excellent"
+msgstr "Eccellente "
+
+msgid "Forgot your password?"
+msgstr "Hai dimenticato la password?"
+
+msgid "Gialli and Thriller "
+msgstr "Gialli e Thriller"
+
+msgid "Giver information : "
+msgstr "Informazioni sul donatore : "
+
+msgid "Good condition"
+msgstr "Buono stato"
+
+msgid "Hello"
+msgstr "Ciao"
+
+msgid "Historical Fiction"
+msgstr "Narrativa storica"
+
+msgid "History"
+msgstr "Storia"
+
+msgid "Humor"
+msgstr "Humour"
+
+msgid "If you didn't request this, please ignore this email."
+msgstr "Se non sei stato tu a fare questa richiesta, per favore ignora questa mail."
+
+msgid "Insert new book in my library"
+msgstr "Inserisci un nuovo libro nella  libreria"
+
+msgid "Insert the title of the book"
+msgstr "Inserire il titolo del libro"
+
+msgid "Language"
+msgstr "Lingua"
+
+msgid "Language : "
+msgstr "Lingua : "
+
+msgid "Language, linguistics and writing"
+msgstr "Lingua, linguistica e scrittura"
+
+msgid "Law"
+msgstr "Diritto"
+
+msgid "Less information"
+msgstr "Meno informazioni"
+
+msgid "Like new"
+msgstr "Come nuovo"
+
+msgid "Literature & Fiction"
+msgstr "Letteratura e narrativa"
+
+msgid "Loan"
+msgstr "Prestito"
+
+msgid "Log in"
+msgstr "Accedi"
+
+msgid "Login"
+msgstr "Accedi"
+
+msgid "Logout"
+msgstr "Esci"
+
+msgid "My books"
+msgstr "I miei libri"
+
+msgid "My donations"
+msgstr "Le mie donazioni"
+
+msgid "My requests"
+msgstr "Le mie richieste"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Name : "
+msgstr "Nome : "
+
+msgid "New"
+msgstr "Nuovo"
+
+msgid "New password"
+msgstr "Nuova password"
+
+msgid "Pages"
+msgstr "Pagine"
+
+msgid "Pages : "
+msgstr "Pagine : "
+
+msgid "Password confirmation"
+msgstr "Conferma la password"
+
+msgid "Phone"
+msgstr "Telefono"
+
+msgid "Phone : "
+msgstr "Telefono : "
+
+msgid "Politics"
+msgstr "Politica"
+
+msgid "Publisher"
+msgstr "Editore"
+
+msgid "Publisher : "
+msgstr "Editore : "
+
+msgid "Register"
+msgstr "Registrati"
+
+msgid "Religion"
+msgstr "Religione"
+
+msgid "Remember me"
+msgstr "Ricordami"
+
+msgid "Remove from the wishlist"
+msgstr "Rimosso dalla lista dei desideri"
+
+msgid "Remove from wishlist"
+msgstr "Rimuovi dalla lista"
+
+msgid "Remove request"
+msgstr "Rimuovi la richiesta"
+
+msgid "Request"
+msgstr "Richiedi"
+
+msgid "Request cancelled!"
+msgstr "Richiesta rimossa!"
+
+msgid "Requested"
+msgstr "Richiesti"
+
+msgid "Requested book delivered!"
+msgstr "Libro richiesto consegnato!"
+
+msgid "Required book successfully!"
+msgstr "Libro richiesto con successo!"
+
+msgid "Resend confirmation instructions"
+msgstr "Invia nuovamente le istruzioni di conferma"
+
+msgid "Resend unlock instructions"
+msgstr "Invia nuovamente le istruzioni di sblocco"
+
+msgid "Romance"
+msgstr "Romanzi rosa"
+
+msgid "Sale"
+msgstr "Vendita"
+
+msgid "Save book"
+msgstr "Inserisci il libro"
+
+msgid "School books"
+msgstr "Libri scolastici"
+
+msgid "Science & Technology"
+msgstr "Scienze, tecnologia e medicina"
+
+msgid "Science Fiction, Fantasy and Horror"
+msgstr "Fantascienza, Horror e Fantasy"
+
+msgid "Search"
+msgstr "Ricerca"
+
+msgid "Search by title or ISBN the information of your book"
+msgstr "Ricerca tramite il titolo o l’ISBN le informazioni del tuo libro"
+
+msgid "Select the category"
+msgstr "Seleziona la categoria"
+
+msgid "Select the status of the book"
+msgstr "Seleziona lo stato del libro"
+
+msgid "Select the type of sale"
+msgstr "Seleziona il tipo di vendita"
+
+msgid "Select the year of publication of the book"
+msgstr "Seleziona l’anno di pubblicazione del libro"
+
+msgid "Send me reset password instructions"
+msgstr "Inviami le istruzioni per il rese della password"
+
+msgid "Show"
+msgstr "Visualizza"
+
+msgid "Sign in with #{provider.to_s.titleize}"
+msgstr "Accedi con #{provider.to_s.titleize}"
+
+msgid "Sign up"
+msgstr "Registrati"
+
+msgid "Someone has requested a link to change your password. You can do this through the link below."
+msgstr "Hai richiesto un link per cambiare la tua password., lo puoi trovare qui di seguito"
+
+msgid "Sport"
+msgstr "Sport"
+
+msgid "Status"
+msgstr "Stato"
+
+msgid "Status : "
+msgstr "Stato : "
+
+msgid "Surname"
+msgstr "Cognome"
+
+msgid "The operation isn't successful!"
+msgstr "L’operazione non è andata a buon fine!"
+
+msgid "Title"
+msgstr "Titolo"
+
+msgid "Type of sale"
+msgstr "Tipo di vendita"
+
+msgid "Type of sale :"
+msgstr "Tipo di vendita : "
+
+msgid "Type of sale : "
+msgstr "Tipo di vendita : "
+
+msgid "Unhappy?"
+msgstr "infelice?"
+
+msgid "Unlock my account"
+msgstr "Sblocca il mio account"
+
+msgid "Update"
+msgstr "Aggiorna"
+
+msgid "Welcome"
+msgstr "Benvenuto"
+
+msgid "Wishlist"
+msgstr "Lista dei desideri"
+
+msgid "Year"
+msgstr "Anno "
+
+msgid "Year : "
+msgstr "Anno : "
+
+msgid "You can confirm your account email through the link below:"
+msgstr "Puoi confermare il tuo account tramite il link qui di seguito:"
+
+msgid "Your account has been locked due to an excessive number of unsuccessful sign in attempts."
+msgstr "Il tuo account è stato bloccato a causa di un numero eccessivo di tentativi di accesso"
+
+msgid "Your password won't change until you access the link above and create a new one."
+msgstr "La password non cambierà fino a quando si accedà al link qui sopra per crearne una nuova."
+
+msgid "prohibited this book from being saved:"
+msgstr "non permette il salvataggio di questo libro:"
+
+#~ msgid "Add to wishlist"
+#~ msgstr "Aggiungi alla Lista dei desideri"

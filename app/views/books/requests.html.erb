@@ -1,0 +1,44 @@
+<div class="container">
+	<div class="row">
+		<h1><%= _('My requests')%></h1>
+	</div>
+	<div class="row">
+		<div id="content">
+			<ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+				<li class="active"><a href="#r" data-toggle="tab"><%= _('Requested')%></a></li>
+				<li><a href="#w" data-toggle="tab"><%= _('Wishlist')%></a></li>
+			</ul>
+			<div id="my-tab-content" class="tab-content">
+				<div class="tab-pane active" id="r">
+					<h3><%= _('Requested')%></h3>
+					<ul class="list-group">
+						<%= render 'req_list' %>
+					</ul>
+				</div>
+				<div class="tab-pane" id="w">
+					<h3><%= _('Wishlist')%></h3>
+					<ul class="list-group">
+					<%= render 'wishlist'%>
+					</ul>
+				</div>
+			</div>
+		</div> 
+	</div> 
+</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var $window = $(window);
+
+		function checkWidth() {
+			var windowsize = $window.width();
+			if (windowsize <= 768)
+				$('#tabs').removeClass('nav-justified');
+			else
+				$('#tabs').addClass('nav-justified');
+		}
+   // Execute on load
+   checkWidth();
+   // Bind event listener
+   $(window).resize(checkWidth);
+});
+</script>

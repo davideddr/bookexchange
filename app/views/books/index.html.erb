@@ -1,0 +1,65 @@
+<div class="container">
+  <div class="row">
+    <h1><%= _('My donations')%></h1>
+  </div>
+  <div class="row">
+    <div id="content">
+      <ul id="tabs" class="nav nav-tabs " data-tabs="tabs">
+        <li class="active"><a href="#al" data-toggle="tab"><%=_('All')%></a></li>
+        <li><a href="#ac" data-toggle="tab"><%= _('Active')%></a></li>
+        <li><a href="#r" data-toggle="tab"><%=_('Requested')%></a></li>
+        <li><a href="#d" data-toggle="tab"><%=_('Delivered')%></a></li>
+      </ul>
+      <div id="my-tab-content" class="tab-content">
+        <div class="tab-pane active" id="al">
+          <ul class="list-group">
+            <h3><%=_('All donations')%></h3>
+            <%= render 'list', books: @books %>
+          </ul>
+        </div>
+        <div class="tab-pane" id="ac">
+          <ul class="list-group">
+            <h3><%=_('Active')%></h3>
+            <%= render 'list' , books: @active %>
+          </ul>
+        </div>
+        <div class="tab-pane" id="r">
+          <ul class="list-group">
+            <h3><%=_('Requested')%></h3>
+            <%= render 'list_re', books: @req %>
+          </ul>
+        </div>
+        <div class="tab-pane" id="d">
+          <ul class="list-group">
+            <h3><%=_('Delivered')%></h3>
+            <%= render 'dev_list', books: @deliv %>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </div> 
+</div>
+</div>  
+<script type="text/javascript">
+  $(document).ready(function(){
+    setTimeout(function() {
+      $('.alert-success').fadeOut();
+    }, 2000);
+    setTimeout(function() {
+      $('.alert-danger').fadeOut();
+    }, 2000);
+    var $window = $(window);
+
+    function checkWidth() {
+      var windowsize = $window.width();
+      if (windowsize <= 768)
+        $('#tabs').removeClass('nav-justified');
+      else
+        $('#tabs').addClass('nav-justified');
+    }
+   // Execute on load
+   checkWidth();
+   // Bind event listener
+   $(window).resize(checkWidth);
+ });
+</script>
